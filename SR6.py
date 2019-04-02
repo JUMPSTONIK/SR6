@@ -11,7 +11,7 @@ while cont ==0:
 	if respuesta == 1:
 		glCreateWindow(800,600)
 		val = get_var()
-		load("BMONorm.obj",eye=V3(0,0,0.5),center=V3(0.2,0,0),up=V3(0,1,0),transalte=(-3.3,-0,0), scale=(1,1,1), rotate=(0,-0.1,0))
+		load("BMONorm.obj",eye=V3(0,0,0.5),center=V3(0.2,0,0),up=V3(0,1,0),transalte=(-3.8,-0.3,4), scale=(1,1,1), rotate=(0,-0.1,0))
 		glFinish()
 	if respuesta == 2:
 		glCreateWindow(800,600)
